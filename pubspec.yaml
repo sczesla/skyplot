@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  advance_math: any
+  advance_math:
+    git:
+      url: https://github.com/sczesla/advance_math
+      ref: main # branch name
 
 dev_dependencies:
   flutter_test:
